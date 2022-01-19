@@ -1,0 +1,106 @@
+/* Add a black background color to the top navigation */
+body {
+  background-color: grey;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width:50%;
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .title {
+     position:static;
+     font-size: 15px;
+     font-family: monospace;
+  }
+
+ p {
+     text-align: center;
+    box-shadow: 10px 10px;
+    width: 50%;
+    background-color: purple;
+    
+  }
+
+  a {
+    text-align: center;
+   color: blue;
+   width: 50%;
+   text-decoration: none;
+ }
+
+ font {
+  position:static;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+
+  width: 30%;
+  
+ }
+
+ form {
+  position:static;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  box-shadow: 10px 10px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+ }
+
+ input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ }
+
+  img.avatar {
+    width: 20%;
+    border-radius: 25%;
+  }
+
+  button {
+    background-color: #8e04aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
